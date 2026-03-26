@@ -9,7 +9,7 @@ This repo contains my daily progress, notes, and coding practice as I learn Java
 
 I follow a consistent daily routine:
 
-📖 Learn 1 Core Java concept daily through lectures  
+📖 Learn 1 Core Java concept daily 
 💻 Implement the concept with coding practice  
 📝 Document key notes  
 📂 Upload progress to GitHub  

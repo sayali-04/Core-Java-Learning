@@ -9,6 +9,7 @@ public class Demo7 {
 
     /*
         //Constructors of HashSet / LinkedHashSet
+        
         Set<Integer> set=new HashSet<>(); //default 16 size bucket
         
         //initial capacity

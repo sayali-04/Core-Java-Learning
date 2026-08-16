@@ -1,5 +1,6 @@
-package Collection_Framework;
+//Iterator interface
 
+package Collection_Framework;
 import java.util.Iterator;
 
 public class Demo2 {

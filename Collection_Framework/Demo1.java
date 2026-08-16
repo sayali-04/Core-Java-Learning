@@ -1,7 +1,8 @@
 package Collection_Framework;
 import java.util.*;
+import java.util.ArrayList;
 
-
+//Arraylist 
 public class Demo1 {
     public static void main(String[] args) {
         
@@ -14,7 +15,12 @@ public class Demo1 {
         Iterator<Integer>it=list.iterator();
 
         while(it.hasNext()){
-            System.out.println(next());
+            System.out.println(next(it));
         }
+    }
+
+    private static char[] next(Iterator<Integer> it) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'next'");
     }
 }

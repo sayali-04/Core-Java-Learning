@@ -1,6 +1,9 @@
-package Collection_Framework;
+//List interface
 
+package Collection_Framework;
 import java.util.*;
+import java.util.ArrayList;
+
 
 public class Demo3 {
     public static void main(String[] args) {

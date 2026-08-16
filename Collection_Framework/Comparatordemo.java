@@ -1,3 +1,5 @@
+//Comparator interface/Anonymous class
+
 package Collection_Framework;
 import java.util.*;
 import java.util.ArrayList;
@@ -17,12 +19,14 @@ public class Comparatordemo {
 
     
     // Collections.sort(list,c2); //c1 means sort by name if c2 then sort by rollno 
-    Collections.sort(list,new Comparator<Student>(){
-     @Override
-     public int compare(Student s1,Student s2){
-        return s1.rollno-s2.rollno;
-     }
-    });
+    // Collections.sort(list,new Comparator<Student>(){
+    //  @Override
+    //  public int compare(Student s1,Student s2){
+    //     return s1.rollno-s2.rollno;
+    //  }
+    // });
+
+    Collections.sort(list,(s1,s2)->s1.marks-s2.marks);
 
     for(Student s:list){
        System.out.println(s.name + " "+ s.rollno +" "+ s.marks);
